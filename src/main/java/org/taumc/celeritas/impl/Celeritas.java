@@ -6,7 +6,7 @@ import org.embeddedt.embeddium.impl.gl.device.GLRenderDevice;
 import org.lwjgl.opengl.GL15C;
 
 public class Celeritas implements ClientModInitializer {
-    public static final String MODID = "celeritas";
+    public static final String MODID = "norokk";
     public static String VERSION;
 
     @Override

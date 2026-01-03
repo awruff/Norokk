@@ -1,4 +1,4 @@
-package org.taumc.celeritas.mixin.core;
+package org.taumc.celeritas.mixin;
 
 //? if >=1.8 {
 import net.minecraft.client.gui.overlay.DebugOverlay;

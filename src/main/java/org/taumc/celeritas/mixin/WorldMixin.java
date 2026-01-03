@@ -1,4 +1,4 @@
-package org.taumc.celeritas.mixin.core;
+package org.taumc.celeritas.mixin;
 
 import net.minecraft.world.World;
 import org.embeddedt.embeddium.impl.render.chunk.map.ChunkTracker;

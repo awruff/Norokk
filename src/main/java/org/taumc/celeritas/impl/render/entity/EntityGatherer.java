@@ -6,8 +6,8 @@ import net.minecraft.client.world.ClientWorld;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.TypeInstanceMultiMap;
 import net.minecraft.world.chunk.WorldChunk;
-import org.taumc.celeritas.mixin.core.ClientChunkCacheAccessor;
-import org.taumc.celeritas.mixin.core.WorldChunkAccessor;
+import org.taumc.celeritas.mixin.ClientChunkCacheAccessor;
+import org.taumc.celeritas.mixin.WorldChunkAccessor;
 
 import java.util.ArrayList;
 import java.util.List;

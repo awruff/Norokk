@@ -1,13 +1,5 @@
 package org.taumc.celeritas.impl.render.terrain;
 
-import org.embeddedt.embeddium.api.util.ColorARGB;
-import org.embeddedt.embeddium.impl.render.chunk.sprite.SpriteTransparencyLevel;
-import org.taumc.celeritas.mixin.core.MinecraftAccessor;
-
-import javax.imageio.ImageIO;
-import java.io.IOException;
-import java.util.Arrays;
-
 public class SpriteTransparencyTracker {
     private static final int SPRITE_COUNT = 256;
     private static final int DEFAULT_SPRITE_WIDTH = 16;

@@ -1,4 +1,4 @@
-package org.taumc.celeritas.mixin.core;
+package org.taumc.celeritas.mixin;
 
 import com.mojang.blaze3d.vertex.BufferBuilder;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,7 +1,6 @@
 package org.taumc.celeritas.impl.render.terrain.compile.task;
 
 import it.unimi.dsi.fastutil.objects.Reference2ReferenceMap;
-import net.minecraft.block.Block;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.client.render.block.entity.BlockEntityRenderDispatcher;
 import net.minecraft.world.WorldRegion;
@@ -18,17 +17,12 @@ import org.embeddedt.embeddium.impl.render.chunk.occlusion.VisibilityEncoding;
 import org.embeddedt.embeddium.impl.render.chunk.terrain.TerrainRenderPass;
 import org.embeddedt.embeddium.impl.util.task.CancellationToken;
 import org.joml.Vector3d;
-import org.joml.Vector3i;
 import org.lwjgl.opengl.GL11C;
-import org.taumc.celeritas.impl.extensions.TessellatorExtension;
 import org.taumc.celeritas.impl.render.terrain.compile.PrimitiveBuiltRenderSectionData;
 import org.taumc.celeritas.impl.render.terrain.compile.PrimitiveChunkBuildContext;
 import org.taumc.celeritas.impl.render.terrain.occlusion.ChunkOcclusionDataBuilder;
 import org.taumc.celeritas.impl.render.util.Direction;
 import org.taumc.celeritas.impl.world.cloned.ChunkRenderContext;
-import org.taumc.celeritas.mixin.core.TessellatorAccessor;
-
-import java.nio.IntBuffer;
 
 public class ChunkBuilderMeshingTask extends ChunkBuilderTask<ChunkBuildOutput> {
     private final RenderSection render;

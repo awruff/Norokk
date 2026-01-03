@@ -12,7 +12,7 @@ import org.embeddedt.embeddium.impl.render.chunk.vertex.format.ChunkMeshFormats;
 import org.embeddedt.embeddium.impl.render.terrain.SimpleWorldRenderer;
 import org.taumc.celeritas.impl.extensions.RenderGlobalExtension;
 import org.taumc.celeritas.impl.render.terrain.matrix.PrimitiveChunkMatrixGetter;
-import org.taumc.celeritas.mixin.core.MinecraftAccessor;
+import org.taumc.celeritas.mixin.MinecraftAccessor;
 
 import java.util.*;
 

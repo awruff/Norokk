@@ -1,4 +1,4 @@
-package org.taumc.celeritas.mixin.core;
+package org.taumc.celeritas.mixin;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.options.GameOptions;
